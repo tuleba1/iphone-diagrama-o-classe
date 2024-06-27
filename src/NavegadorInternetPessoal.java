@@ -9,10 +9,5 @@ public class NavegadorInternetPessoal implements NavegadorInternet{
         System.out.println("Página atualizada.");
     }
 
-    public static void main(String[] args) {
-        NavegadorInternetPessoal navegador = new NavegadorInternetPessoal();
-        navegador.exibirPagina("htpps://www.exemplo.com.br");
-        navegador.adicionarNovaAba();
-        navegador.atualizarPagina();
-    }
+
 }

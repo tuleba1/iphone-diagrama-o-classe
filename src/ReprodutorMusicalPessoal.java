@@ -13,11 +13,4 @@ public class ReprodutorMusicalPessoal implements ReprodutorMusical {
         System.out.println("Música selecionada: " + musica);
     }
 
-    public static void main(String[] args) {
-        ReprodutorMusicalPessoal reprodutor = new ReprodutorMusicalPessoal();
-        reprodutor.selecionarMusica("JAY-Z - Empire State Of Mind ft. Alicia Keys");
-        reprodutor.tocar();
-        reprodutor.pausar();
-    }
-
 }
