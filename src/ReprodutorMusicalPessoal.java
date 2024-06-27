@@ -1,4 +1,4 @@
-public class MeuReprodutorMusical implements ReprodutorMusical {
+public class ReprodutorMusicalPessoal implements ReprodutorMusical {
     private String musicaAtual;
 
     public void tocar(){
@@ -14,7 +14,7 @@ public class MeuReprodutorMusical implements ReprodutorMusical {
     }
 
     public static void main(String[] args) {
-        MeuReprodutorMusical reprodutor = new MeuReprodutorMusical();
+        ReprodutorMusicalPessoal reprodutor = new ReprodutorMusicalPessoal();
         reprodutor.selecionarMusica("JAY-Z - Empire State Of Mind ft. Alicia Keys");
         reprodutor.tocar();
         reprodutor.pausar();
